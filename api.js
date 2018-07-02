@@ -27,12 +27,28 @@
  *       }
  *     }
  *
- * @apiError UserNotFound The id of the User was not found.
+ * @apiError Invalid Grant Invalid credentials given.
  *
  * @apiErrorExample Error-Response:
- *     HTTP/1.1 404 Not Found
+ *     HTTP/1.1 401 Unauthorized
  *     {
- *       "error": "UserNotFound"
+ *       "errors": {
+ *          "error": "invalid_grant"
+ *          "error_description": "Invalid credentials given."
+ *     }
+ * @apiError Invalid User User does not exist.
+ *
+ * @apiErrorExample Error-Response:
+ *     HTTP/1.1 400 Bad Request
+ *     {
+ *       "errors": [
+ *       {
+ *          "detail": "Invalid user."
+ *          "source": {
+ *              "pointer": "/data/attributes/username"
+ *          },
+ *          "status": "400"
+ *       }
  *     }
  */
  /**
