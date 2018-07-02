@@ -94,15 +94,20 @@
           {
             "group": "Error 4xx",
             "optional": false,
-            "field": "UserNotFound",
-            "description": "<p>The id of the User was not found.</p>"
+            "field": "Invalid",
+            "description": "<p>Grant Invalid credentials given.</p>"
           }
         ]
       },
       "examples": [
         {
           "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"UserNotFound\"\n}",
+          "content": "HTTP/1.1 401 Unauthorized\n{\n  \"errors\": {\n     \"error\": \"invalid_grant\"\n     \"error_description\": \"Invalid credentials given.\"\n}",
+          "type": "json"
+        },
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 400 Bad Request\n{\n  \"errors\": [\n  {\n     \"detail\": \"Invalid user.\"\n     \"source\": {\n         \"pointer\": \"/data/attributes/username\"\n     },\n     \"status\": \"400\"\n  }\n}",
           "type": "json"
         }
       ]
@@ -414,5 +419,33 @@
     },
     "filename": "./api.js",
     "groupTitle": "User"
+  },
+  {
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "optional": false,
+            "field": "varname1",
+            "description": "<p>No type.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "varname2",
+            "description": "<p>With type.</p>"
+          }
+        ]
+      }
+    },
+    "type": "",
+    "url": "",
+    "version": "0.0.0",
+    "filename": "./doc/main.js",
+    "group": "_home_lorax_Documents_workspace_rowegie_rowegie_lorax_github_io_doc_main_js",
+    "groupTitle": "_home_lorax_Documents_workspace_rowegie_rowegie_lorax_github_io_doc_main_js",
+    "name": ""
   }
 ]
