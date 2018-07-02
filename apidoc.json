@@ -2,7 +2,7 @@
   "name": "Baseup",
   "version": "0.1.0",
   "description": "Baseup Web API Documentation",
-  "url": "https://baseup.co/api/v1/",
+  "url": "https://baseup.co/api/v1",
   "template": {
 	"withCompare": true,
 	"withGenerator": true
