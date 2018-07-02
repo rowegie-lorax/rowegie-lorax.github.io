@@ -1,0 +1,10 @@
+{
+  "name": "Baseup",
+  "version": "0.1.0",
+  "description": "Baseup Web API Documentation",
+  "url": "https://stagin.baseup.me/api/v1/",
+  "template": {
+	"withCompare": true,
+	"withGenerator": true
+   }
+}
