@@ -1,10 +1,13 @@
 {
-  "name": "Baseup",
-  "version": "0.1.0",
-  "description": "Baseup Web API Documentation",
-  "url": "https://baseup.co/api/v1",
-  "template": {
-	"withCompare": true,
-	"withGenerator": true
-   }
+    "version": "0.1.0",
+    "url": "https://staging.baseup.me/api/v1",
+    "json_body": true,
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    },
+    "header": {
+        "title": "Get Started",
+        "filename": "rest/doc/header.md"
+    }
 }
