@@ -83,98 +83,98 @@ define({ "api": [
             "type": "Boolean",
             "optional": false,
             "field": "is_guest",
-            "description": "<p>determine if user is guest.</p>"
+            "description": "<p>determines if user is guest.</p>"
           },
           {
             "group": "Success 200",
             "type": "Boolean",
             "optional": false,
             "field": "is_admin",
-            "description": "<p>determine if user is admin.</p>"
+            "description": "<p>determines if user is admin.</p>"
           },
           {
             "group": "Success 200",
             "type": "Boolean",
             "optional": false,
             "field": "is_superuser",
-            "description": "<p>determine if user is superuser.</p>"
+            "description": "<p>determines if user is superuser.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
             "field": "timezone",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>timezone of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
             "field": "phone",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>phone of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
             "field": "alt_phone",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>alt_phone of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
             "field": "status",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>determines the status of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "Image",
             "optional": false,
             "field": "photo",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>profile photo of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "Boolean",
             "optional": false,
             "field": "is_active",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>determines if user is active.</p>"
           },
           {
             "group": "Success 200",
             "type": "Boolean",
             "optional": false,
             "field": "is_mobile_activated",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>determines if User's phone is verified.</p>"
           },
           {
             "group": "Success 200",
             "type": "JSON",
             "optional": false,
             "field": "metadata",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>metadata of the User</p>"
           },
           {
             "group": "Success 200",
             "type": "Date",
             "optional": false,
             "field": "create_at",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>registered date of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "Date",
             "optional": false,
             "field": "update_at",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>Current date when the User's profile was updated.</p>"
           },
           {
             "group": "Success 200",
             "type": "List",
             "optional": false,
             "field": "account",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>account number of the User.</p>"
           },
           {
             "group": "Success 200",
@@ -188,7 +188,7 @@ define({ "api": [
             "type": "String",
             "optional": false,
             "field": "contact_name",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>social id of the User.</p>"
           }
         ]
       },
@@ -482,21 +482,21 @@ define({ "api": [
             "type": "String",
             "optional": false,
             "field": "timezone",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>timezone of the User.</p>"
           },
           {
             "group": "Parameter",
             "type": "String",
             "optional": false,
             "field": "phone",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>phone of the User.</p>"
           },
           {
             "group": "Parameter",
             "type": "Image",
             "optional": false,
             "field": "photo",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>profile photo of the User.</p>"
           }
         ]
       }
@@ -579,112 +579,112 @@ define({ "api": [
             "type": "Boolean",
             "optional": false,
             "field": "is_guest",
-            "description": "<p>determine if user is guest.</p>"
+            "description": "<p>determines if user is guest.</p>"
           },
           {
             "group": "Success 200",
             "type": "Boolean",
             "optional": false,
             "field": "is_admin",
-            "description": "<p>determine if user is admin.</p>"
+            "description": "<p>determines if user is admin.</p>"
           },
           {
             "group": "Success 200",
             "type": "Boolean",
             "optional": false,
             "field": "is_superuser",
-            "description": "<p>determine if user is superuser.</p>"
+            "description": "<p>determines if user is superuser.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
             "field": "timezone",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>timezone of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
             "field": "phone",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>phone of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
             "field": "alt_phone",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>alt_phone of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
             "field": "status",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>determines the status of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "Image",
             "optional": false,
             "field": "photo",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>profile photo of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "Boolean",
             "optional": false,
             "field": "is_active",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>determines if the User is active.</p>"
           },
           {
             "group": "Success 200",
             "type": "Boolean",
             "optional": false,
             "field": "is_mobile_activated",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>determines if User's phone is verified.</p>"
           },
           {
             "group": "Success 200",
             "type": "JSON",
             "optional": false,
             "field": "metadata",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>metadata of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "Date",
             "optional": false,
             "field": "create_at",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>registered date of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "Date",
             "optional": false,
             "field": "update_at",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>Last profile update date of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "List",
             "optional": false,
             "field": "account",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>account number of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
             "field": "social_id",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>social_id of the User.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
             "field": "contact_name",
-            "description": "<p>Lastname of the User.</p>"
+            "description": "<p>contact_name of the User.</p>"
           }
         ]
       },
