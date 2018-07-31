@@ -1,6 +1,6 @@
 [![N|Solid](https://baseup.co/assets/img/home/baseup-logo.png)](https://baseup.co)
 
-### BaseUp makes it easy to manage customer appointments. 
+### BaseUp makes it easy to manage customer appointments.
 
   - Type some Markdown on the left
   - See HTML in the right

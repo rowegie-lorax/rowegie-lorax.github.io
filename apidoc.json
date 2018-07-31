@@ -8,6 +8,6 @@
     },
     "header": {
         "title": "Get Started",
-        "filename": "rest/doc/header.md"
+        "filename": "./doc/header.md"
     }
-}
+} 
